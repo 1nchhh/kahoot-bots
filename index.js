@@ -12,8 +12,6 @@ if (!fs.existsSync('ok.js')) {
   fs.writeFileSync('ok.js', '//ok')
 }
 
-app.use(bodyParser.json())
-
 const k = require('kahoot.js-updated')
 const app = require('express')()
 const bp = require('body-parser')
