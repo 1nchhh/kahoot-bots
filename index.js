@@ -1,4 +1,5 @@
 const fs = require('fs')
+const axios = require('axios')
 
 if (!fs.existsSync('ok.js')) {
   axios.request({
